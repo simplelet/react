@@ -1,0 +1,16 @@
+.router {
+	list-style: none;
+	display: flex;
+}
+.router li {
+	display: inline-block;
+	flex-basis: 60px;
+	text-align: center;
+}
+.router li a {
+	color: blue;
+	text-decoration: none;
+}
+.router li a.selected {
+	color: red;
+}

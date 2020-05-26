@@ -1,0 +1,10 @@
+1.Redux 是一种架构模式（Flux 架构的一种变种），它不关注你到底用什么库，你可以把它应用到 React 和 Vue，甚至跟 jQuery 结合都没有问题。
+  而 React-redux 就是把 Redux 这种架构模式和 React.js 结合起来的一个库，就是 Redux 架构在 React.js 中的体现。
+
+2.reducer: (state, action) => newState, 必须是纯函数
+  action: 具有type属性的普通对象就被称为 action
+  State 是只读的，唯一修改它的方式是 actions
+  更新的唯一方式：dispatch(action) -> reducer -> new state
+
+3.redux-thunk中间件可以让action创建函数先不返回一个action对象，
+  而是返回一个函数，函数传递两个参数(dispatch,getState),在函数体内进行业务逻辑的封装

@@ -1,0 +1,11 @@
+.comment-wrap .comment-select .postid-list {
+	list-style: none;
+	cursor: pointer;
+}
+.comment-wrap .comment-select .postid-list .postid-item {
+	display: inline-block;
+	text-align: center;
+	margin: 10px 5px 10px 0;
+	width: 50px;
+	background-color: #cccccc;
+}

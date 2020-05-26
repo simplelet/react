@@ -1,0 +1,3 @@
+export const GET_COMMENTS = 'GET_COMMENTS';
+export const GET_POSTID_COMMENTS = 'GET_POSTID_COMMENTS';
+export const GET_ABOUT_TEXT = 'GET_ABOUT_TEXT';
