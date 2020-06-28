@@ -34,7 +34,7 @@ class Comment extends Component {
 						<div className="select">
 							<div>CurrentPostId: {this.state.postid || 'all'}</div>
 							<div className="postid-list">
-								{postidList.map((v, i) => <span className="postid-item" onClick={this.changePostid.bind(this, v)} key={i}>{v}</span>)}
+								{postidList.map((v, i) => <span className="postid-item" onClick={this.changePostid.bind(this, v)} key={v}>{v}</span>)}
 							</div>
 						</div>
 					: ''}
